@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Littleara - Snack Ringan</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Littleara</h1>
+        <p>Snack Ringan Enak dan Terjangkau</p>
+        <nav>
+            <a href="#about">Tentang Kami</a>
+            <a href="#products">Produk</a>
+            <a href="#contact">Kontak</a>
+        </nav>
+    </header>
+
+    <section id="about">
+        <h2>Tentang Kami</h2>
+        <p>Littleara menyediakan berbagai macam snack ringan yang lezat dan berkualitas. Semua produk kami dijual dalam ukuran praktis, cocok untuk teman ngemil kapan saja!</p>
+    </section>
+
+    <section id="products">
+        <h2>Produk Kami</h2>
+        <div class="product-list">
+            <div class="product">
+                <img src="https://via.placeholder.com/150" alt="Produk 1">
+                <h3>Snack Kacang</h3>
+                <p>Harga: Rp10,000</p>
+                <button onclick="addToCart('Snack Kacang')">Tambah ke Keranjang</button>
+            </div>
+            <div class="product">
+                <img src="https://via.placeholder.com/150" alt="Produk 2">
+                <h3>Keripik Kentang</h3>
+                <p>Harga: Rp15,000</p>
+                <button onclick="addToCart('Keripik Kentang')">Tambah ke Keranjang</button>
+            </div>
+            <!-- Tambahkan lebih banyak produk sesuai kebutuhan -->
+        </div>
+    </section>
+
+    <section id="contact">
+        <h2>Kontak Kami</h2>
+        <p>Hubungi kami di <a href="mailto:info@littleara.com">info@littleara.com</a> atau kunjungi kami di media sosial.</p>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Littleara. Semua hak dilindungi.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
