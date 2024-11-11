@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Produk New Launching</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav>
+        <ul>
+            <li><a href="index.php">Home</a></li>
+            <li><a href="about-us.php">About Us</a></li>
+            <li><a href="new-launching.php">Produk New Launching</a></li>
+            <li><a href="best-seller.php">Best Seller</a></li>
+            <li><a href="checkout.php">Checkout</a></li>
+        </ul>
+    </nav>
+    <header>
+        <h1>Produk New Launching</h1>
+        <p>Lihat produk terbaru yang baru saja diluncurkan!</p>
+        <ul>
+            <li>Produk A - Deskripsi Singkat</li>
+            <li>Produk B - Deskripsi Singkat</li>
+            <li>Produk C - Deskripsi Singkat</li>
+        </ul>
+    </header>
+</body>
+</html>
