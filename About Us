@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav>
+        <ul>
+            <li><a href="index.php">Home</a></li>
+            <li><a href="about-us.php">About Us</a></li>
+            <li><a href="new-launching.php">Produk New Launching</a></li>
+            <li><a href="best-seller.php">Best Seller</a></li>
+            <li><a href="checkout.php">Checkout</a></li>
+        </ul>
+    </nav>
+    <header>
+        <h1>Tentang Kami</h1>
+        <p>Kami adalah perusahaan yang berfokus pada produk berkualitas tinggi untuk memenuhi kebutuhan pelanggan.</p>
+    </header>
+</body>
+</html>
